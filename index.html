@@ -16,13 +16,20 @@
     <section class="header">
         <nav class="navbar">
             <div class="container-fluid">
-                <a href="#" class="navbar-brand icon">
+                <a href="#" class="navbar-brand" id="brand-icon">
                     <img src="./imgs/logo.png" alt="gelateria logo" width="23" height="50">
                 </a>
+                <a class="navbar-brand" type="button" href="#" id="find-us-button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">find us</a>
             </div>
         </nav>
     </section>
     <section id="homepage">
+        <!--
+        <div class="container-fluid d-flex flex-column justify-content-center" id="cover-page">
+            <img src="imgs/cover.jpg" alt="cover photo" class="img-fluid" style="aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover;" width="50%">
+            <h1>welcome</h1>
+        </div>
+        -->
         <div class="container-fluid d-flex">
             <div class="col">
                 <div class="row">
@@ -30,7 +37,7 @@
                         <a href="./pages/about.html" class="sub-page-link">
                             <div class="sub-page">
                                 <img src="./imgs/about.jpg" alt="about section" class="img-fluid sub-page-inner">
-                                <h2 class="sub-page-title display-4">About</h2>
+                                <h2 class="sub-page-title display-5">about</h2>
                             </div>
                         </a>
                     </div>
@@ -38,7 +45,7 @@
                         <a href="./pages/about.html" class="sub-page-link">
                             <div class="sub-page">
                                 <img src="./imgs/ice.jpg" alt="about section" class="img-fluid sub-page-inner">
-                                <h2 class="sub-page-title display-4">Ice Cream</h2>
+                                <h2 class="sub-page-title display-5">ice cream</h2>
                             </div>
                         </a>
                     </div>
@@ -48,15 +55,15 @@
                         <a href="./pages/about.html" class="sub-page-link">
                             <div class="sub-page">
                                 <img src="./imgs/coffee.jpg" alt="about section" class="img-fluid sub-page-inner">
-                                <h2 class="sub-page-title display-4">Coffee</h2>
+                                <h2 class="sub-page-title display-5">coffee</h2>
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-6 p-5">
                         <a href="./pages/about.html" class="sub-page-link">
                             <div class="sub-page">
-                                <img src="./imgs/about.jpg" alt="about section" class="img-fluid sub-page-inner">
-                                <h2 class="sub-page-title display-4">Contact</h2>
+                                <img src="./imgs/contact.jpg" alt="about section" class="img-fluid sub-page-inner">
+                                <h2 class="sub-page-title display-5">contact</h2>
                             </div>
                         </a>
                     </div>
@@ -64,6 +71,23 @@
             </div>
         </div>
     </section>
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-center">
+                    <h2 class="modal-title" id="staticBackdropLabel">we hope to see you as soon as possible</h2>
+                </div>
+                <div class="modal-body">
+                    <h3>gelateria los angeles</h3>
+                    <p>19070 Cass Ave<br>Michigan<br>United States, 48038</p>
+                    <img src="imgs/map.jpg" alt="map" class="img-fluid" style="aspect-ratio: 2/1; object-fit: cover;">
+                </div>
+                <div class="modal-footer">
+                    <a class="navbar-brand" type="button" href="#" id="close-button" data-bs-dismiss="modal">close</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>

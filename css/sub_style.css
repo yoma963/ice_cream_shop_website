@@ -1,0 +1,56 @@
+body {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: #AB989E;
+}
+
+.header {
+    min-height: 8vh;
+    padding: 0 6rem;
+}
+
+#brand-icon {
+    margin: 0 2rem;
+}
+
+#back-button {
+    margin: 0 2rem;
+    color: #AB989E;
+    font-size: 1.7rem;
+}
+
+#back-button:hover {
+    text-decoration: underline;
+}
+
+.cover-img {
+    background-image: url("../imgs/colors.jpg");
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 30vh;
+    background-size: cover;
+}
+
+#cover-title {
+    font-size: 10rem;
+    font-weight: 600;
+    color: white;
+}
+
+#description {
+    max-width: 1000px;
+}
+
+.content-block {
+    max-width: 1200px;
+}
+
+.imgs {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+@media only screen and (min-width: 1300px) {
+    
+}

@@ -21,7 +21,7 @@
 </head>
 <body>
     <section class="header">
-        <nav class="navbar">
+        <nav class="navbar p-0 py-1">
             <div class="container-fluid">
                 <a href="#" class="navbar-brand" id="brand-icon">
                     <img src="./imgs/logo.png" alt="gelateria logo" width="23" height="50">
@@ -30,21 +30,21 @@
             </div>
         </nav>
     </section>
-    <section id="homepage">
-        <div class="container-fluid d-flex px-5 py-0" id="cover-page">
+    <div class="container-fluid" id="homepage">
+        <div class="container-fluid d-flex px-2 px-sm-5 py-0" id="cover-page">
             <div class="row align-items-center">
-                <div class="col-lg-6 d-flex flex-column">
+                <div class="col-lg-6 d-flex flex-column m-lg-0 px-5 px-lg-2 order-2 order-lg-1">
                     <p class="fs-3 m-0">"lorem ipsum, dolor sit amet consectetur adipisicing elit. inventore, mollitia modi aut deleniti similique ut sapiente dolorum placeat itaque atque totam eum ducimus ab nam. quis sed qui corporis quisquam."</p>
                     <p class="fs-5 w-100 d-flex justify-content-end mt-2">Patricia R. Fuller - owner</p> 
                 </div>
-                <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                <div class="col-lg-6 d-flex align-items-center justify-content-center m-lg-0 mb-5 order-1 order-lg-2">
                     <img src="imgs/cover.jpg" alt="cover photo" class="img-fluid" id="cover-img">
                 </div>
             </div>  
         </div>
-        <div class="container-fluid d-flex mt-5 content">
+        <div class="container-fluid d-flex my-4" id="content">
             <div class="row">
-                <div class="col-lg-3 p-5">
+                <div class="col-xxl-3 col-md-6 px-4 px-sm-5 py-5">
                     <a href="./pages/about.html" class="sub-page-link">
                         <div class="sub-page">
                             <img src="./imgs/about.jpg" alt="about section" class="img-fluid sub-page-inner">
@@ -52,24 +52,24 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-3 p-5">
-                    <a href="./pages/about.html" class="sub-page-link">
+                <div class="col-xxl-3 col-md-6 px-4 px-sm-5 py-5">
+                    <a href="./pages/gelato.html" class="sub-page-link">
                         <div class="sub-page">
                             <img src="./imgs/ice.jpg" alt="about section" class="img-fluid sub-page-inner">
-                            <h2 class="sub-page-title display-6">Ice cream</h2>
+                            <h2 class="sub-page-title display-6">Ice Cream</h2>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-3 p-5">
-                    <a href="./pages/about.html" class="sub-page-link">
+                <div class="col-xxl-3 col-md-6 px-4 px-sm-5 py-5">
+                    <a href="./pages/coffee.html" class="sub-page-link">
                         <div class="sub-page">
                             <img src="./imgs/coffee.jpg" alt="about section" class="img-fluid sub-page-inner">
                             <h2 class="sub-page-title display-6">Coffee</h2>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-3 p-5">
-                    <a href="./pages/about.html" class="sub-page-link">
+                <div class="col-xxl-3 col-md-6 px-4 px-sm-5 py-5">
+                    <a href="./pages/contact.html" class="sub-page-link">
                         <div class="sub-page">
                             <img src="./imgs/contact.jpg" alt="about section" class="img-fluid sub-page-inner">
                             <h2 class="sub-page-title display-6">Contact</h2>
@@ -78,7 +78,39 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+    <div class="footer bg-dark text-center text-white navbar-fixed-bottom" id="footer">
+        <!-- Grid container -->
+        <div class="container px-4">
+            <!-- Section: Social media -->
+            <div>
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating px-3 m-1" href="#!" role="button"
+                ><i class="fab fa-facebook-f"></i
+                ></a>
+      
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                 ><i class="fab fa-google"></i
+                 ></a>
+      
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                ><i class="fab fa-instagram"></i
+                ></a>
+                </div>
+            <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright:
+            <a class="text-white" href="#">Bence Cseloczki</a>
+            </div>
+            <!-- Copyright -->
+        </div>
+
     <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">

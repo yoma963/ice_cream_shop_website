@@ -4,6 +4,7 @@
     --main-pastel-pink: #D6AEA3;
     --main-eggshell: #F4E8D7;
     --main-crystal: #AAD5DC;
+    --main-crystal-darker: #73bac5;
     --main-azureish-white: #DEF4F4;
 }
 body {
@@ -62,11 +63,23 @@ body {
     padding: 0;
 }
 
+.half-div {
+    max-width: 600px;
+}
+
 .circular-element {
     background-color: var(--main-crystal);
     border-radius: 50%;
     padding: 3rem;
     max-width: 400px;
+}
+
+.submit-btn {
+    background-color: var(--main-crystal);
+}
+
+.submit-btn:hover {
+    background-color: var(--main-crystal-darker);
 }
 
 @media (max-width: 576px) {

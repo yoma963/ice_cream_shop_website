@@ -7,6 +7,7 @@
     --main-crystal-darker: #73bac5;
     --main-azureish-white: #DEF4F4;
 }
+
 body {
     font-family: 'Edu NSW ACT Foundation', cursive;
     color: var(--main-heliotrope-gray);
